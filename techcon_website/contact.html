@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us, TechCon 2024</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Contact us</h1>
+    </header>
+
+    <main>
+         <!-- Contact Information -->
+         <section id="Contant-information">
+            <h2>Contact</h2>
+            <p>If you have any questions or need further information, feel free to contact us through the following channels:</p>
+            <p>Email: <a href="mailto:info@techcon2024.com">info@techcon2024.com</a></p>
+            <p>Follow us on Social Media:</p>
+            <ul>
+                <li><a href="https://facebook.com/techcon2024" target="_blank">Facebook</a></li>
+                <li><a href="https://twitter.com/techcon2024" target="_blank">Twitter</a></li>
+                <li><a href="https://instagram.com/techcon2024" target="_blank">Instagram</a></li>
+                <li><a href="https://linkedin.com/company/techcon2024" target="_blank">LinkedIn</a></li>
+            </ul>
+        </section>
+
+        <!-- Embedded Google Map -->
+        <section id="map">
+            <h2>Our Location</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3441.551802071406!2d-97.75249092569716!3d30.39208250201842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644cc8252d7f82f%3A0x4595dc1dea42c274!2sRenaissance%20Austin%20Hotel!5e0!3m2!1sen!2sza!4v1726062086326!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <!-- Contact Us Form -->
+        <section id="contact-form">
+            <h2>Contact Us</h2>
+            <form action="submit_contact.php" method="post">
+                <!-- Name Field -->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <!-- Email Field -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <!-- Message Field -->
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea><br><br>
+                
+                <!-- Submit Button -->
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>copyright &copy; 2024 TechCon. All rights reserved.</p>
+        <p>Made by Nyiko Lucas Chauke - <a href="https://www.linkedin.com/in/nyiko-chauke-825324172" target="_blank">Connect with me on LinkedIn</a></p>
+    </footer>
+</body>
+</html>
